@@ -1,0 +1,28 @@
+{
+    "name": "phpassword/resource-api",
+    "description": "Resource api library for PHPassword",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Phillip Schleicher",
+            "email": "the@phizzl.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPassword\\Api\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPassword\\Api\\": "tests/src/"
+        }
+    }
+}
